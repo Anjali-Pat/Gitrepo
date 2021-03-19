@@ -1,61 +1,44 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Assignment
+This project is Developed under the following instructions:
+-----------------------------------------------------------
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Develop a web app which allows the administrator to view results of custom queries
+written by the administrator, and download the result of the query in an excel file.
+Work flow:
+1. The admin creates different report format from the front end, with the following
+information:
+- Title of the report.
+- The custom query that the admin wants to run to view/download the data.
+2. All saved report formats should be visible in the menu for the administrator to view.
+3. When the administrator clicks on any report format link from the menu, the entire
+data fetched from the query should be visible on the web page in a tabular format.
+4. There should be an option of downloading the data (in point 3) in an excel format.
+5. The data from the custom query (report) should be available in an
 
-## About Laravel
+Instructions to run the project :
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Step 1: Download the project
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Step 2: Install the dependencies via composer through the following command
+ 'composer install'
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Step 3: Run migrations and seeds
+ 'php artisan migrate'
 
-## Learning Laravel
+Step 4: Register Yourself to create custom queries
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Step 5: Login and the create format 
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Step 6: Click on view result to view results of saved queries
 
-## Laravel Sponsors
+Screenshots of the system:
+1. Registration![Reg](https://user-images.githubusercontent.com/80957642/111774220-2f6cc080-88d5-11eb-8109-ecdfe036ffda.jpeg)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+2. Login![login](https://user-images.githubusercontent.com/80957642/111774003-e0bf2680-88d4-11eb-937e-1a4aa0f432ec.jpeg)
 
-### Premium Partners
+3. Create form![cr form](https://user-images.githubusercontent.com/80957642/111774077-fb919b00-88d4-11eb-8d7a-a8eff188f2d8.jpeg)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+4. Query![query result](https://user-images.githubusercontent.com/80957642/111774247-385d9200-88d5-11eb-96cf-4190fa756428.jpeg)
 
-## Contributing
+5. Results![res](https://user-images.githubusercontent.com/80957642/111774261-3dbadc80-88d5-11eb-807a-e4253d3a22c3.jpeg)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
